@@ -22,6 +22,16 @@
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
         </li>
+        <p style="color: white; text-align:center">
+            <AuthorizeView>
+                <Authorized>
+                    Authorized
+                </Authorized>
+                <NotAuthorized>
+                    Not authorized
+                </NotAuthorized>
+            </AuthorizeView>
+        </p>
     </ul>
 </div>
 
@@ -33,5 +43,10 @@
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void BeginSignOut()
+    {
+
     }
 }

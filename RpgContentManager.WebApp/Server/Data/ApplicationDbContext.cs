@@ -16,19 +16,24 @@ namespace RpgContentManager.WebApp.Server.Data
             DbContextOptions options,
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
-            EnsureInitialized();
+            EnsureMigrated();
         }
 
-        #region Initialization
+        #region Db sets
 
-        private static bool _initialized = false;
+        public DbSet<Actor> Actors { get; set; }
 
-        private void EnsureInitialized()
+        #endregion
+
+        #region Migration
+
+        private static bool _migrated = false;
+
+        private void EnsureMigrated()
         {
-            if (!_initialized)
+            if (!_migrated)
             {
-                _initialized = true;
-                Database.EnsureCreated();
+                _migrated = true;
                 Database.Migrate();
             }
         }
