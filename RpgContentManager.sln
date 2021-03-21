@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgContentManager.WebApp.Server", "RpgContentManager.WebApp\Server\RpgContentManager.WebApp.Server.csproj", "{5060074A-53C8-4DD1-9560-DA08DB7BB802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgContentManager.WebApp.Client", "RpgContentManager.WebApp\Client\RpgContentManager.WebApp.Client.csproj", "{332D2B52-4AAF-4A4F-B1FA-A74880D306F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgContentManager.WebApp.Shared", "RpgContentManager.WebApp\Shared\RpgContentManager.WebApp.Shared.csproj", "{19CD813C-E951-4B10-82FE-349533692918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5060074A-53C8-4DD1-9560-DA08DB7BB802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5060074A-53C8-4DD1-9560-DA08DB7BB802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5060074A-53C8-4DD1-9560-DA08DB7BB802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5060074A-53C8-4DD1-9560-DA08DB7BB802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332D2B52-4AAF-4A4F-B1FA-A74880D306F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332D2B52-4AAF-4A4F-B1FA-A74880D306F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332D2B52-4AAF-4A4F-B1FA-A74880D306F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332D2B52-4AAF-4A4F-B1FA-A74880D306F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CD813C-E951-4B10-82FE-349533692918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CD813C-E951-4B10-82FE-349533692918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CD813C-E951-4B10-82FE-349533692918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CD813C-E951-4B10-82FE-349533692918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35DE9479-C0EB-4F55-B04E-5DD9A3E855DC}
+	EndGlobalSection
+EndGlobal
